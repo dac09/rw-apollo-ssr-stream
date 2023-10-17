@@ -11,19 +11,21 @@
     ]
   },
   "dependencies": {
-    "@apollo/experimental-nextjs-app-support": "0.0.0-commit-5141fa5",
-    "@redwoodjs/auth-dbauth-web": "7.0.0-canary.263",
-    "@redwoodjs/forms": "7.0.0-canary.263",
-    "@redwoodjs/router": "7.0.0-canary.263",
-    "@redwoodjs/vite": "7.0.0-canary.263",
-    "@redwoodjs/web": "7.0.0-canary.263",
+    "@apollo/experimental-nextjs-app-support": "0.0.0-commit-b8a73fe",
+    "@redwoodjs/auth-dbauth-web": "7.0.0-canary.399",
+    "@redwoodjs/forms": "7.0.0-canary.399",
+    "@redwoodjs/router": "7.0.0-canary.399",
+    "@redwoodjs/vite": "7.0.0-canary.399",
+    "@redwoodjs/web": "7.0.0-canary.399",
     "humanize-string": "2.1.0",
     "prop-types": "15.8.1",
-    "react": "18.3.0-canary-035a41c4e-20230704",
-    "react-dom": "18.3.0-canary-035a41c4e-20230704"
+    "react": "0.0.0-experimental-e5205658f-20230913",
+    "react-dom": "0.0.0-experimental-e5205658f-20230913"
   },
   "devDependencies": {
-    "@redwoodjs/vite": "7.0.0-canary.263",
+    "@redwoodjs/vite": "7.0.0-canary.399",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.25",
     "postcss-loader": "^7.3.3",
