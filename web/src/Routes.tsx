@@ -29,7 +29,7 @@ const Routes = () => {
         <Route path="/contacts/{id:Int}" page={ContactContactPage} name="contact" />
         <Route path="/contacts" page={ContactContactsPage} name="contacts" />
       </Set>
-      <Set wrap={ScaffoldLayout} title="Posts" titleTo="posts" buttonLabel="New Post" buttonTo="newPost">
+      <Set wrap={ScaffoldLayout} title="Posts" titleTo="posts" buttonLabel="New Post" buttonTo="newPost" private unauthenticated="login">
         <Route path="/posts/new" page={PostNewPostPage} name="newPost" />
         <Route path="/posts/{id:Int}/edit" page={PostEditPostPage} name="editPost" />
         <Route path="/posts/{id:Int}" page={PostPostPage} name="post" />

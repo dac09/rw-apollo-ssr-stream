@@ -1,6 +1,7 @@
 import { setVerbosity } from 'ts-invariant'
 
 import BlogPostsCell from 'src/components/BlogPostsCell'
+import DelayedStuff from 'src/components/DelayedComponent'
 
 // const doSomething = () => {
 //   console.log(PrismaClient)
@@ -20,7 +21,13 @@ const HomePage = () => {
   //   )
   // })
   // doSomething()
-  return <BlogPostsCell />
+
+  return (
+    <>
+      <DelayedStuff />
+      <BlogPostsCell />
+    </>
+  )
 }
 
 export default HomePage

@@ -7,13 +7,14 @@ interface Props {
   url: string
   css: string[]
   meta?: any[]
+  children?: React.ReactNode
 }
 
-export const ServerEntry: React.FC<Props> = ({ url, css, meta }) => {
+export const ServerEntry: React.FC<Props> = ({ url, css, meta, children }) => {
   return (
     <LocationProvider location={{ pathname: url }}>
       <Document css={css} meta={meta}>
-        <App />
+        {children ? children : <App />}
       </Document>
     </LocationProvider>
   )
