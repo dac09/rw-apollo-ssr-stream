@@ -6,13 +6,11 @@ import type {
   PostRelationResolvers,
 } from 'types/graphql'
 
-import { AuthenticationError } from '@redwoodjs/graphql-server'
+// import { AuthenticationError } from '@redwoodjs/graphql-server'
 
 import { db } from 'src/lib/db'
 
 export const posts: QueryResolvers['posts'] = async () => {
-  await setTimeout(5000)
-
   // Simulate error to see if message actually comes through
   // throw new AuthenticationError('bazinga')
 
